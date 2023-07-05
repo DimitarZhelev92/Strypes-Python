@@ -1,0 +1,2 @@
+# Strypes-Python
+Практика
