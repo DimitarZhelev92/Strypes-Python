@@ -5,5 +5,6 @@ def sum_of_num(n):
       num += int(digit)      
     return num
    
-n = 569
-print(sum_of_num(n))
+input_number = input("Enter the number: ")
+sum_of_num = sum_of_num(input_number)
+print(sum_of_num)
