@@ -15,7 +15,7 @@ def numbers_to_msg(nums):
         if temp_group == []:
             temp_group.append(el)
         
-        if el in temp_group:
+        elif el in temp_group:
             temp_group.append(el)
         
         else:
@@ -33,4 +33,4 @@ def numbers_to_msg(nums):
         result = result + chars[sub_group[0]][char_pos]
     return result
 
-print(numbers_to_msg([2,-1,2,2,-1,2,2,2]))
+print(numbers_to_msg([2,3,3,3,5,3,3,3,7,1,6,6,6]))
